@@ -8,13 +8,17 @@
 
     <style>
 
- #nav-bar{
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ #navbar{
 
      position: fixed;
      left: 0;
      top: 0;
      bottom: 0;
-     background-color: beige;
+     background-color: rgb(243, 241, 130);
      min-width: 290px;
      width: 300px;
      height: 100%;
@@ -22,12 +26,58 @@
 
  }
 
+ #navbar ul {
+     padding: 0;
+     height: 90%;
+ }
+
+#navbar li{
+    color: black;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    border-top: 2px solid;
+    border-color: whitesmoke;
+
+}
+
+#navbar a{
+    display: block;
+    padding: 10px 30px;
+    color: black;
+    text-align: start;
+    text-decoration: none;
+
+}
+
+#navbar header{
+    text-align: center;
+    padding-top: 10px;
+    font-size: larger;
+}
+
+header{
+    font-size: larger;
+    text-align: left;
+    margin: 0px;
+}
+
  #main-doc {
   position: absolute;
   margin-left: 310px;
   padding: 20px;
   margin-bottom: 110px;
+  
 }
+
+p {
+    font-size: medium;
+}
+
+#References li{
+    list-style: none;
+}
+
 
     </style>
 </head>
@@ -135,22 +185,24 @@ As a result of the consultations, both sides reaffirmed the following:
     </section>
 
     <section class="main-section" id="References">
-        <header>References</header> <ul><li>
-        <a href="https://www.washingtonpost.com/world/asia_pacific/japan-children-custody-divorce/2020/10/18/f7421d62-077f-11eb-8719-0df159d14794_story.html" target="_blank">Article link</a>
-        <a href="https://www.mofa.go.jp/fp/hr_ha/page22e_000250.html" target="_blank">Japanese Ministry of foreign affairs</a>
-        <a href="https://jp.usembassy.gov/japan-united-states-reaffirm-commitment-to-full-implementation-of-the-hague-convention-and-to-the-resolution-of-child-abduction-cases/">US Embassy</a>
+        <header>References</header> <ul><li> 
+        <a href="https://www.washingtonpost.com/world/asia_pacific/japan-children-custody-divorce/2020/10/18/f7421d62-077f-11eb-8719-0df159d14794_story.html" target="_blank">Article link</a><br>
+        <br>
+        <a href="https://www.mofa.go.jp/fp/hr_ha/page22e_000250.html" target="_blank">Japanese Ministry of foreign affairs</a><br>
+        <br>
+        <a href="https://jp.usembassy.gov/japan-united-states-reaffirm-commitment-to-full-implementation-of-the-hague-convention-and-to-the-resolution-of-child-abduction-cases/" target="_blank">US Embassy</a>
    </li> </section>
 
-   <nav id="nav-bar">
+   <nav id="navbar">
        <header>Child abduction in Japan</header>
         <ul>
             <li>
-       <a href="#Context">Context</a></li>
-       <li><a href="#Rights_for_children">Rights for children</a></li>
-       <li><a href="#Challenges_from_Europe">Challenges from Europe</a></li>
-        <li><a href="#The_Hague_convention_in_Japan">The Hague convention in Japan</a></li>
-            <li><a href="#JAPAN,_U.S._REAFFIRM_COMMITMENT_TO_THE_HAGUE_CONVENTION_AND_TO_THE_RESOLUTION_OF_ABDUCTION_CASES">JAPAN, U.S. REAFFIRM COMMITMENT TO THE HAGUE CONVENTION AND TO THE RESOLUTION OF ABDUCTION CASES</a></li>
-                <li><a href="#References">References</a></li>
+       <a class="nav-link" href="#Context">Context</a></li>
+       <li><a class="nav-link" href="#Rights_for_children">Rights for children</a></li>
+       <li><a class="nav-link" href="#Challenges_from_Europe">Challenges from Europe</a></li>
+       <li><a class="nav-link"  href="#The_Hague_convention_in_Japan">The Hague convention in Japan</a></li>
+       <li><a class="nav-link" href="#JAPAN,_U.S._REAFFIRM_COMMITMENT_TO_THE_HAGUE_CONVENTION_AND_TO_THE_RESOLUTION_OF_ABDUCTION_CASES">JAPAN, U.S. REAFFIRM COMMITMENT TO THE HAGUE CONVENTION AND TO THE RESOLUTION OF ABDUCTION CASES</a></li>
+       <li><a class="nav-link" href="#References">References</a></li>
             </li></ul>
    </nav>
 </main>
